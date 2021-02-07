@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = vim
 
 [alias]
   co = checkout
@@ -46,6 +46,10 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
 [user]
 	email = dmcarmo@gmail.com
 	name = David Carmo
+
+[pull]
+  rebase = false
